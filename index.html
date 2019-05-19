@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html style="height:100%;">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="居金所致力于打造商务办公楼经济生态圈，我司平台依托商务办公楼中小微企业的办公场景，以企业为核心，运用产品和技术，以支付、金融、营销为手段，帮助企业实现与房东、员工、物业以及其他企业连接沟通的企业综合服务平台">
+    <meta name="keywords" content="居金所,写字楼,写字楼出租,写字楼托管,写字楼租赁,租金月付,通行客,贷发工资,薪管家,智能闸机,无感通行,智慧物业,  物业费,智能缴费">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=pMudpSd5Q6aH24EGnSWoqNpcFdDRjqll"></script>
+    <style>
+      .all_container{
+        overflow: hidden;
+
+      }
+      .el-scrollbar__bar.is-horizontal {
+        height: 6px;
+        left: 2px;
+      }
+      .el-scrollbar__bar {
+        position: absolute;
+        right: 2px;
+        bottom: 2px;
+        z-index: 1;
+        border-radius: 4px;
+        opacity: 0;
+        transition: opacity .12s ease-out;
+      }
+      .page-component__scroll .el-scrollbar__wrap {
+        overflow-x: auto;
+      }
+
+      .el-scrollbar__wrap {
+        overflow: scroll;
+        height: 100%;
+      }
+      .el-scrollbar__bar.is-horizontal {
+        height: 6px;
+        left: 2px;
+      }
+
+      .el-scrollbar__bar {
+        position: absolute;
+        right: 2px;
+        bottom: 2px;
+        z-index: 1;
+        border-radius: 4px;
+        opacity: 0;
+        transition: opacity .12s ease-out;
+      }
+      .el-scrollbar__bar.is-vertical {
+        width: 6px;
+        top: 2px;
+        overflow-x:hidden
+      }
+
+      .el-scrollbar__bar {
+        position: absolute;
+        right: 2px;
+        bottom: 2px;
+        z-index: 1;
+        border-radius: 4px;
+        opacity: 0;
+        transition: opacity .12s ease-out;
+      }
+      #app{
+        overflow: scroll;
+        margin-bottom: -17px;
+        margin-right: -17px;
+        padding-bottom:80px;
+      }
+      .el-popup-parent--hidden{
+        padding-right: 0px !important;
+      }
+    </style>
+    <!--<script>!function(e){function t(a){if(i[a])return i[a].exports;var n=i[a]={exports:{},id:a,loaded:!1};return e[a].call(n.exports,n,n.exports,t),n.loaded=!0,n.exports}var i={};return t.m=e,t.c=i,t.p="",t(0)}([function(e,t){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var i=window;t["default"]=i.flex=function(normal,e,t){var a=e||100,n=t||1,r=i.document,o=navigator.userAgent,d=o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),l=o.match(/U3\/((\d+|\.){5,})/i),c=l&&parseInt(l[1].split(".").join(""),10)>=80,p=navigator.appVersion.match(/(iphone|ipad|ipod)/gi),s=i.devicePixelRatio||1;p||d&&d[1]>534||c||(s=1);var u=normal?1:1/s,m=r.querySelector('meta[name="viewport"]');m||(m=r.createElement("meta"),m.setAttribute("name","viewport"),r.head.appendChild(m)),m.setAttribute("content","width=device-width,user-scalable=no,initial-scale="+u+",maximum-scale="+u+",minimum-scale="+u),r.documentElement.style.fontSize=normal?"50px": a/2*s*n+"px"},e.exports=t["default"]}]);  flex(false,100, 1);</script>-->
+    <!--<script type="text/javascript" src="./static/url.js"></script>-->
+    <!--<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+    <!--<script type="text/javascript" src="./static/d3.min.js"></script>-->
+    <!--<script type="text/javascript" src="./static/echarts.js"></script>-->
+    <title>居金所</title>
+  </head>
+  <body style="overflow: hidden;position: relative;padding-right:0px !important;height:100%;">
+    <div id="app" style="" class="el-scrollbar__wrap">
+      <div class="el-scrollbar__bar is-horizontal"></div>
+      <div class="el-scrollbar__bar is-vertical"></div>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+   /* window.onload = function () {
+      var w= screen.availWidth;//先获取屏幕分辨率大小
+      var view_height = document.getElementById("app")
+      if(w<1400&&w>1280){
+        view_height.style.height = '590px'
+      } else if(w>1400&&w<1800) {
+        view_height.style.height = '760px'
+      }else if(w>1600){
+        view_height.style.height = '900px'
+      }
+      else{
+        view_height.style.height = '840px'
+      }
+
+//      var app = doucument.getElementById("app")
+//      app.style.marginBottom = "-17px"
+//      app.style.paddingBottom = "80px"
+    }*/
+  </script>
+</html>

@@ -1,0 +1,43 @@
+@charset "utf-8";
+body,ul,ol,dl,dd,p,h1,h2,h3,h4,h5,h6,input,textarea,select{
+	margin: 0; padding: 0;
+}
+ul,ol{list-style: none;}
+input,select,textarea,button{outline: none;background-color:transparent; border: none;}
+textarea{resize: none;}
+img{border: none;}
+a{text-decoration: none;}
+em,i{font-style: normal;}
+a{-webkit-tap-highlight-color:rgba(0,0,0,0);}/*a点击出现黑色*/
+input{-webkit-appearance:none;} /*去掉iphone下safari的圆角*/
+.hide{display:none;}
+.show{display: block;}
+.fl{float: left;}
+.fr{float: right;}
+/*完整版*/
+.clearfix:after,.clearfix:before{ content: ""; display: table; }
+.clearfix:after{clear: both;}
+.clearfix{zoom:1;}
+body{
+  font-family: "Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-size: 12px;
+}
+.v-modal{
+  z-index: 1000 !important;
+}
+body{
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  padding:0;
+  margin:0;
+}
+
+
+
+
+
+
+
+
+
+
